@@ -8,7 +8,6 @@
 .header{
     display: flex;
     align-items: center;
-    border: 2px solid blue;
     margin: 0.4rem;
     padding: 0.8rem;
 
@@ -20,7 +19,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border: 1px solid red;
         min-width: 40vh;
         min-height: 10vh;
         & a{
@@ -50,13 +48,11 @@ body{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        border: 2px solid violet;
         margin-top: 20px;
         width: 60vh;
         height: 50vh;
     }
     & .first-section{
-        border: 2px solid green;
         display: flex;
         flex-direction: column;
         width: 80vh;
