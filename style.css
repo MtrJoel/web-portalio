@@ -8,9 +8,11 @@
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0.4rem;
     padding: 0.8rem;
-
+    width: 100%;
+    border: 2px solid yellow;
     & .titleP{
         color: #FFE066;
         padding-right: 2.5rem;
