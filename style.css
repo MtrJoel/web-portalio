@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     color: white;
-    
 }
+
 .header{
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     }
 }
 body{
-    background-color: #000F08;
+    background-color: #03001C;
     color: white
 }
 .raiz{
@@ -45,13 +45,23 @@ body{
         color: #CAA8F5;
     }
     & .content{
+        border-radius: 5%;
+        background-color: #301E67;
+        box-shadow: 10px 10px 10px #23154e88;
+        width: 80vh;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .container{
         background-image: url('/img/portada.png');
+        border-radius: 5%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        margin-top: 20px;
-        width: 60vh;
-        height: 50vh;
+        width: 70vh;
+        height: 60vh;
     }
     & .first-section{
         display: flex;
