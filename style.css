@@ -123,16 +123,19 @@ body {
    }
    
    .header {
-       flex-direction: column;
-       align-items: flex-start; /* Cambia la alineación para pantallas pequeñas */
-       justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Cambia la alineación para pantallas pequeñas */
+    justify-content: space-between;
    }
    
    .header .navegation {
-       flex-direction: column; /* Navegación en columna */
-       width: 100%; /* Ajustar al contenedor */
-       margin-top: 1rem; /* Espaciado superior */
-       align-items: flex-end;
+    border: 3px solid blue;
+       flex-direction: column; 
+       width: 50%; 
+       margin-top: 1rem;
+       align-items: center;
+       justify-content: center;
        padding-right: 0.7rem;
    }
 }
