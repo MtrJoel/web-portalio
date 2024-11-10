@@ -132,7 +132,7 @@ body {
    .header .navegation {
     border: 3px solid blue;
        flex-direction: column; 
-       width: 50%; 
+       width: auto; 
        margin-top: 1rem;
        align-items: center;
        justify-content: center;
