@@ -53,8 +53,8 @@ body{
 
 .card{
   background-color: #17202a;
-  height: 65%;
-  width: 70%;
+  height: 70%;
+  width: 40%;
   position: absolute;
   border-radius: 20px;
   box-shadow: 5px 5px 25px #1d8348;
@@ -85,4 +85,50 @@ body{
   overflow-wrap: break-word;
   word-break: break-all;
   overflow-y: visible;
+  gap: 5px;
+}
+
+@media(min-width: 750px){
+  body{
+    background-color: red;
+  }
+
+  .card{
+    background-color: #17202a;
+    height: 70%;
+    width: 35%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px #1d8348;
+  }
+}
+
+@media(min-width: 950px){
+  body{
+    background-color: yellow;
+  }
+
+  .card{
+    background-color: #17202a;
+    height: 70%;
+    width: 30%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px #1d8348;
+  }
+}
+
+@media(min-width: 1200px){
+  body{
+    background-color: green;
+  }
+
+  .card{
+    background-color: #17202a;
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px #1d8348;
+  }
 }
